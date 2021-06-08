@@ -1,0 +1,430 @@
+.back1{ 
+    background: url(219956.jpg);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.back2{
+    background: url(Test_chamber.jpg);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.back3{
+    background: url(thumb-1920-312257.jpg);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.back4{
+    background: url(alyx_feature2.jpg);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.back5{
+    background: url(b60aac81e7477ddb6c7793674928e72cf32fba6b.png);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.back6{
+    background: url(Gabe.jpg);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.back7{
+    background: url(G-man_door_desktop.jpg);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.back8{
+    background: url(thumb-1920-557525.jpg);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.back9{
+    background: url(1585649877_alyx-9.jpg);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.hunger{
+    background: url(images2.png);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.ue{
+    background: url(Logotipo.jpg);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.ez{
+    background: url(xkGSwIA.png);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.nh2{
+    background: url(o9mRn3gnxpRNOqDzSElGlg.jpeg);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.paranoia{
+    background: url(Paranoia_ART1.jpg.png);
+    background-attachment: fixed;
+    width:"100%"; 
+}
+.navbar{
+    background-color: orange;
+    border: 4px ridge black;
+    border-radius: 0px 0px 90px 90px;
+}
+.navbar-brand{
+    margin-left: 130px;
+}
+.nav-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-item a:hover{
+    background-color: rgb(255, 145, 0);
+}
+.navbar-brand a:hover{
+    background-color: rgb(255, 145, 0);
+}
+.zmist{
+    margin-top: 30px;
+    background-color: rgba(255, 166, 0, 0.459);
+    border-radius: 90px 90px 0px 0px;
+    border: 4px ridge black;
+}
+.left{
+    background-color: rgba(209, 94, 0, 0.493);
+    border-radius: 90px 0px 0px 0px;
+}
+.zagolovok{
+    font-size: 70px;
+    text-align: center;
+}
+.zagolovok2{
+    font-size: 70px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.zagolovok3{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(255, 72, 0);
+}
+.ops{
+    border-radius: 90px 90px 0px 0px;
+}
+.danger{
+    background-color: rgba(160, 160, 255, 0.459);
+    margin-top: 10px;
+    border: 2px solid rgb(194, 1, 1);
+}
+.ash{
+    font-size: 17px;
+}
+.rabota{
+    margin-left: 70px;
+}
+.alah{
+    text-align: center;
+    color: wheat;
+    margin-top: 15px;
+}
+.alah2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+}
+.alah3{
+    text-align: center;
+    color: rgb(126, 0, 0);
+    margin-top: 15px;
+}
+.akbar{
+    text-align: center;
+    color: wheat;
+}
+.akbar2{
+    text-align: start;
+    color: wheat;
+    margin-left: 15px;
+}
+.pisylka{
+    color: wheat;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.pp{
+    font-size: 24px;
+    color: wheat;
+}
+.pp2{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.pp3{
+    font-size: 24px;
+    color: rgb(126, 0, 0);
+}
+.pp4{
+    font-size: 24px;
+    color: rgb(49, 172, 0);
+}
+.card{
+    margin-top: 15px;
+}
+.card-title{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.car-body{
+    border: 4px solid black;
+}
+.photo{
+    height: 550px;
+    width: 460px;
+}
+.border{
+    color: wheat;
+    font-size: 25px;
+}
+.slider{
+    max-width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+      position: relative;
+  
+  }
+  .slider-line{
+    display: flex;
+    transition: all ease 2s;
+  }
+  
+  .button {
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      position: absolute;
+      top: 45%;
+      font-size: 25px;
+      z-index: 99;
+  }
+  .slider-prev {
+      left: 5px;
+  }
+  .slider-next {
+      right: 5px;
+  }
+.box{
+    margin-top: 30px;
+    width: 430px;
+    height: 530px;
+}
+.box2{
+    margin-top: 10px;
+    width: 460px;
+    height: 650px;
+}
+.box3{
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+}
+.box4{
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 410px;
+    height: 310px;
+}
+.box5{
+    margin-top: 50px;
+    width: 550px;
+    height: 890px;
+}
+.box6{
+    width: 450px;
+    height: 490px;
+}
+.box7{
+    margin-top: 30px;
+    width: 450px;
+    height: 490px;
+}
+.box8{
+    margin-top: 125px;
+    width: 450px;
+    height: 490px;
+}
+.video{
+    margin-left: 260px;
+}
+.fact{
+    margin-left: 100px;
+}
+.news{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+/* Поля ввода полной ширины */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Установите стиль для всех кнопок */
+  .baton {
+    background-color: #f36100;
+    color: white;
+    padding: 34px 50px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 30px;
+    margin-left: 380px;
+    border-radius: 0px 90px 0px 0px;
+  }
+  .baton2{
+    background-color: #f36100;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .baton:hover {
+    opacity:1;
+  }
+  .baton2:hover {
+    opacity:1;
+  }
+  /* Дополнительные стили для кнопки Отмена */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #d80000;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container-reg {
+    padding: 16px;
+  }
+  
+  /* Модальный (фон) */
+  .modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: #474e5dc2;
+    padding-top: 50px;
+  }
+  
+  /* Модальное содержание/бокс */
+  .modal-content {
+    background-color: rgba(255, 166, 0, 0.459);
+    margin: 5% auto 15% auto; /* 5% сверху, 15% снизу и по центру */
+    border: 1px solid #888;
+    width: 80%; /* Может быть больше или меньше, в зависимости от размера экрана */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+   
+  /* Кнопка закрытия (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
+  .radio {
+    margin-bottom: 10px;
+}
+.knopka{
+    margin-top: 15px;
+}
+#toTop {
+	position: fixed;
+	display: inline-block;
+	bottom: 30px;
+	right: -40px;
+	width: 40px;
+	height: 40px;
+	z-index: 1000;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	background: rgb(226, 105, 6);
+	box-shadow: 0 0 0 3px rgba(0,0,0,.2);
+	opacity: 0;
+	visibility: hidden;
+  transition: all .3s ease-in-out;
+}
+#toTop:hover {
+		background: rgb(136, 61, 0);
+}
+
+#toTop svg {
+	position: relative;
+	top: 12px;
+	right: -1px;
+	fill: #fff;
+	transition: all .3s ease-in-out;
+}
+
+#toTop:hover svg {
+	cursor: pointer;
+	fill: #fff;
+	transition: all .3s ease-in-out;
+}
+
+#toTop.show {
+	opacity: 1;
+	visibility: visible;
+	right: calc(2%);
+}

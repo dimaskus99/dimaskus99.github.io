@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" href="1200px-Orange_lambda.svg.png" type="images/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">    
+    <title>Главная</title>
+</head>
+<body class="back1">
+  <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #F9690E url(http://hello-site.ru//main/images/preloads/ball-triangle.svg) center center no-repeat;background-size:144px;}</style>
+<div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
+<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+          <a class="navbar-brand active" aria-current="page" href="#">
+            <img src="Half-Life_PNG40.png" alt="" width="50" height="50">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index2.html">Half Life</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index3.html">Half Life 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index4.html">Half-Life: Alyx</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index5.html">Portal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index6.html">Half Life 3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index7.html">Интересные факты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index8.html">Garry's mod</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Лучшие моды</a>
+              
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Underhell.html">Underhell</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Nightmare_House_2.html">Nightmare House 2</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="EntropyZero.html">Entropy: Zero</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Paranoia.html">Paranoia</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="They_Hunger.html">They Hunger</a></li>
+              </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index9.html">Новости</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container zmist">
+       <div class="row ops">
+         <div class="col-md-5 left">
+             <h2 class="zagolovok">Главная</h2>
+         </div>
+         <div class="col-md-3 knopka">
+         <button class="baton" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Регестрация</button>
+         </div>
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Закрыть Modal">&times;</span>
+  <form class="modal-content" action="../action_page.php">
+    <div class="container-reg">
+      <h1>Регестрация</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Имя</b></label>
+      <input type="text" placeholder=" Ведите свое имя" name="name" required>
+
+      <label for="email"><b>Никнейм</b></label>
+      <input type="text" placeholder=" Ведите свой никнейм" name="nickname" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder=" Ведите Email" name="email" required>
+
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder=" Ведите пароль" name="psw" required>
+
+      <label for="psw-repeat"><b>Повторите пароль</b></label>
+      <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+
+      <div>
+        <input type="radio" required name="radio1"> Мужской пол
+        <input type="radio" name="radio1" class="radio"> Женский пол
+        </div>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запомнить меня
+      </label>
+
+      <p>Создавая учетную запись, вы соглашаетесь с нашим <a href="#" style="color:dodgerblue">Условием и конфиденциальностью</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn baton2">Отменить</button>
+        <button type="submit" class="signupbtn baton2">Регестрация</button>
+      </div>
+    </div>
+  </form>
+</div>
+       </div>
+       <div class="danger">
+         <div class="row">
+         <div class="col-md-3"><img src="Signicon003a.png" class="rabota" alt="" height="140px" width="140px"></div>
+         <div class="col-md-9 vashno"><p class="ash"><b>Эта статья, шаблон, галерея или раздел находится в середине расширения или реконструкции.Мы будем рады Вашей помощи в создании или реконструкции. Тем не менее, не делайте серьезных изменений до проведения консультаций с сообществом, поскольку соответствующие редакторы, вероятно, создали руководящие принципы для построения страницы.</b> </p></div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="row">
+            <div class="col-md-7 text">
+                <h2 class="alah">Важное</h2>
+                <p class="pp">Вселенная Half-Life, также известная как Вселенная Half-Life и Portal — научно-фантастическая вселенная, созданная Valve Corporation в 1998 году с выпуском Half-Life на ПК-платформе. Она проходит через четыре связанных сюжетных линии, вытекающих из игр: Half-Life, Half-Life 2, Portal и Portal 2.</p>
+
+                <p class="pp">С момента релиза Half-Life претерпела множество изменений, расширений и продолжений, большинство из которых находятся в той же вселенной. Большинство из них были разработаны Valve, однако, три дополнения — Half-Life: Opposing Force, Half-Life: Blue Shift и Half-Life: Decay — были разработаны Gearbox Software. В 2005 году Electronic Arts взяла на себя издание игр Half-Life.</p>
+                  
+                <p class="pp">Помимо Windows, игры серии выходили на многих консолях, таких как PlayStation 2, PlayStation 3 и Xbox 360, а также Mac. Начатая на движке GoldSrc, модификации движка Quake, сейчас серия построена на движке Source.</p>
+                <h2 class="alah">Обзор</h2>
+                <p class="pp">Игры серии Half-Life представляют собой шутеры от первого лица, разбавленные решением несложных головоломок. Игры являются линейными и, в основном, основанными на скриптах. В подсерии Portal игроку предстоит проходить испытания, используя возможности портальной пушки.</p>
+                <p class="pp">Способ подачи сюжета оригинален. В отличие от многих других игр, сюжет раскрывается перед игроком не полностью, большую часть сюжета игроку приходится додумывать самому, основываясь на окружающей обстановке.</p>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 28rem;">
+                <h5 class="card-title">Вселенная Half-Life и Portal</h5>
+                <img src="HLPverse.png" class="card-img-top" alt="..." height="500px">
+                <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Разработчики: Valve Corporation, Gearbox Software;</li>
+                    <li class="list-group-item">Издатели: Electronic Arts, Sierra Studios, Steam;</li>
+                    <li class="list-group-item">Серии: Half-Life, Portal;</li>
+                    <li class="list-group-item">Даты: Half-Life - 19 ноября 1998; Half-Life: Opposing Force - 1 ноября 1999; Half-Life: Blue Shift - 12 июня 2001; Half-Life: Decay - 14 ноября 2001; Half-Life 2 - 16 ноября 2004; Half-Life 2: Episode One - 1 июня 2006; Half-Life 2: Episode Two, Portal - 10 октября 2007; Portal 2 - 19 апреля 2011; Half-Life: Alyx - 23 марта 2020 года;</li>
+                    <li class="list-group-item">Жанры: Научная фантастика, шутер от первого лица, головоломка;</li>
+                    <li class="list-group-item">Режимы: Одиночный и кооперативный;</li>
+                    <li class="list-group-item">Платформы: Windows, Mac OS X, PlayStation 2, PlayStation 3, Xbox и Xbox 360;</li>
+                    <li class="list-group-item">Движки: GoldSrc, Source, Source 2;</li>
+                    <li class="list-group-item">Сценаристы: Мэттью Армстронг, Стивен Бал, Чет Фализжек, Роб Хейронимус, Брайан Хесс, Кристи Джунио, Марк Лэйдлоу, Дэвид Мерт, Джей Пинкертон, Рэнди Питчфорд, Эрик Уолпоу, Шон Ванаман;</li>
+                    <li class="list-group-item">Композиторы: Келли Бейли, Крис Дженсен, Майк Мораски.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="info2">
+      <h2 class="akbar">Главные герои</h2>
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="Freeman_bust.png" alt="" class="photo">
+      </div>
+      <div class="col-lg-7 border">
+        <p>Гордон Фримен — главный герой в серии, физик-теоретик, доктор философии (PhD), окончил Массачусетский технологический институт. Работал в Чёрной Мезе и после инцидента пытался выбраться из лаборатории, но в итоге выжил и закрыл межпространственный разлом между Землёй и Зеном, уничтожив Нихиланта. Затем попал в стазис, так как, по мнению G-Man’а, был очень важен для человечества. Через 20 лет, выйдя из стазиса, оказался в Сити 17. Он встретился со старыми друзьями и начал воевать с Альянсом на стороне Сопротивления. Гордон становится подобием мессии для людей, которые возлагают на него миссию освободить Землю от порабощения Альянса.</p>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="Shephard2.png" alt="" class="photo">
+      </div>
+      <div class="col-lg-7 border">
+        <p>Адриан Шепард — главный герой аддона Half-Life: Opposing Force. Шепард является капралом спецподразделения HECU, которое прибыло в Чёрную Мезу с целью её полной зачистки от пришельцев, а также для уничтожения всего персонала как свидетелей случившегося. Но вскоре он отрывается от своей группы и понимает, что должен выбираться из комплекса своими силами. Однако, вскоре Шепард сталкивается с Расой Х и уничтожает Геночервя, затем попадает в руки G-Man’а, который помещает Шепарда в стазис.</p>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="Barneyhl2.JPG.png" alt="" class="photo">
+      </div>
+      <div class="col-lg-7 border">
+        <p>Барни Калхун — главный герой аддона Half-Life: Blue Shift и один из ключевых персонажей в серии, начиная с Half-Life 2. До катастрофы Барни работал обыкновенным охранником, и после инцидента он вместе с группой учёных пытался живым выбраться из комплекса. Во второй части работает на Сопротивление под прикрытием, притворяясь сотрудником Гражданской Обороны. Должен Гордону Фримену пиво. Имеет фобию, связанную с кошками, приобретённую впоследствии испытаний доктором Айзеком Кляйнером с порталом.</p>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="cm1xyAG.png" alt="" class="photo">
+      </div>
+      <div class="col-lg-7 border">
+        <p>Колетт Грин и Джина Кросс — героини третьего аддона Half-Life: Decay. Грин и Кросс были коллегами Фримена в Чёрной Мезе, а после инцидента удалённо помогали ему в его приключении. Дальнейшая судьба неизвестна. Возможно, они обе погибли.</p>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="Chell_Portal.png" alt="" class="photo">
+      </div>
+      <div class="col-lg-7 border">
+        <p>Челл — главная героиня игр Portal и Portal 2, подопытная в Aperture Science.</p>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="Alyx_Vance_first.png" alt="" class="photo">
+      </div>
+      <div class="col-lg-7 border">
+        <p>Аликс Вэнс — главная героиня Half-Life: Alyx. Ключевой персонаж Half-Life 2 и эпизодов, напарница Гордона Фримена, дочь Илая и Азиан Вэнсов.</p>
+      </div>
+      </div>
+      <div class="slider">
+        <div class="slider-line">
+            <img class="slider-item" src="hl2.ru.23.jpg" alt="">
+            <img class="slider-item" src="hl-alyx-trailer-00019.jpg" alt="">
+            <img class="slider-item" src="hl2_source_06.jpg" alt="">
+            <img class="slider-item" src="bm_c1a0b0742.jpg" alt="">
+            <img class="slider-item" src="stephane-gaudette-pressdemo-glados-styleguide0033.jpg" alt="">
+        </div>
+        <button class="button slider-prev">&#10094</button>
+        <button class="button slider-next">&#10095</button>
+    </div>
+    </div>
+    <div class="hronologia">
+          <h2 class="akbar">Хронология событий</h2>
+          <h3 class="akbar2">1940-е</h3>
+          <h4 class="akbar2">1943</h4>
+          <ul>
+          <li class="pisylka">Кейв Джонсон получает награду "Shower Curtain Salesman".</li>
+          </ul>
+          <h4 class="akbar2">1944</h4>
+          <ul>
+          <li class="pisylka">Кейв Джонсон покупает соляную шахту в Верхнем Мичигане и переделывает её в Aperture Science Innovators.</li>
+          </ul>
+          <h4 class="akbar2">1944 или 1945</h4>
+          <ul>
+            <li class="pisylka">Рождение Ричарда Келлера.</li>
+            </ul>
+          <h4 class="akbar2">1945</h4>
+          <ul>
+            <li class="pisylka">Конец Второй Мировой войны.</li>
+            </ul>
+          <h4 class="akbar2">1947</h4>
+          <ul>
+            <li class="pisylka">Aperture Science получает награду "Best New Science Company" от Американского Университета Науки и Бизнеса.</li>
+            </ul>
+          <h4 class="akbar2">1949</h4>
+          <ul>
+            <li class="pisylka">Aperture Science оказывается на втором месте в списке прикладных научных компаний по версии журнала "Mechanical Engineering World Journal".</li>
+            </ul>
+          <h3 class="akbar2">1950-е</h3>
+          <h4 class="akbar2">1952</h4>
+          <ul>
+            <li class="pisylka">Aperture Science начинает тестировать отталкивающий гель.</li>
+            <li class="pisylka">Aperture Science является призёром награды Министерства Обороны США "Подрядчик года".</li>
+            </ul>
+          <h4 class="akbar2">1953</h4>
+          <ul>
+            <li class="pisylka">Aperture Science конструирует Насосную Станцию "Альфа", а также, по крайней мере, две первых камеры Тестовой шахты 09.</li>
+            </ul>
+          <h4 class="akbar2">1954</h4>
+          <ul>
+            <li class="pisylka">Aperture Science снова получает награду "Подрядчик года" от Министерства Обороны США.</li>
+            </ul>
+          <h4 class="akbar2">1955</h4>
+          <ul>
+            <li class="pisylka">Aperture Science получает награду "Spirit of Idaho National Potato Board" за продвижение картофелеводства.</li>
+            </ul>
+          <h4 class="akbar2">1956</h4>
+          <ul>
+            <li class="pisylka">Администрация Эйзенхауэра подписывает контракт с Aperture Science на производство душевых занавесок для всех ветвей вооружённых сил США, за исключением военно-морского флота.</li>
+            <li class="pisylka">Насосная станция "Альфа", которая качает отталкивающий гель, начинает активную работу.</li>
+            </ul>
+          <h4 class="akbar2">1957</h4>
+          <ul>
+            <li class="pisylka">Aperture Science уже конструирует камеру 26 теста 09.</li>
+            </ul>
+          <h4 class="akbar2">1958</h4>
+          <ul>
+            <li class="pisylka">Aperture Science конструирует камеры 27 и 28 теста 09.</li>
+            </ul>
+          <h3 class="akbar2">1960-е</h3>
+          <h4 class="akbar2">1961</h4>
+          <ul>
+            <li class="pisylka">Первый в истории полёт человека в космос.</li>
+            <li class="pisylka">Тестовая шахта 09 "Zulu Bunsen" осуждается и опечатывается.</li>
+            </ul>
+          <h4 class="akbar2">1968</h4>
+          <ul>
+            <li class="pisylka">Aperture Science участвует в слушаниях в Сенате США по делу о "пропавших астронавтах". </li>
+            <li class="pisylka">Aperture Science становится банкротом.</li>
+            </ul>
+          <h4 class="akbar2">Между 1968 и 1978</h4>
+          <ul>
+            <li class="pisylka">Рождение Колетт Грин.</li>
+            </ul>
+          <h4 class="akbar2">1969</h4>
+          <ul>
+            <li class="pisylka">Аполлон 11 достигает луны.</li>
+            </ul>
+          <h3 class="akbar2">1970-е</h3>
+          <h4 class="akbar2">1971</h4>
+          <ul>
+            <li class="pisylka">Aperture Science снова открывает тестовую шахту 09.</li>
+            <li class="pisylka">Aperture строит насосную станцию "Бета".</li>
+            <li class="pisylka">Aperture Science начинает тестирование проталкивающего геля.</li>
+            </ul>
+          <h4 class="akbar2">Между 1972 и 1982</h4>
+          <ul>
+            <li class="pisylka">Рождение Гордона Фримена</li>
+            </ul>
+          <h4 class="akbar2">1972</h4>
+          <ul>
+            <li class="pisylka">Aperture Science конструирует, как минимум, тестовые камеры 1 и 2 испытательного комплекса проталкивающего геля.</li>
+            </ul>
+          <h4 class="akbar2">1973</h4>
+          <ul>
+            <li class="pisylka">Самая ранняя известная дата, когда Aperture Science использует электронную доску объявлений.</li>
+            </ul>
+          <h4 class="akbar2">Между 1974 и 1984</h4>
+          <ul>
+            <li class="pisylka">Рождение Джины Кросс.</li>
+            </ul>
+          <h4 class="akbar2">1975</h4>
+          <ul>
+            <li class="pisylka">Возможно, рождение Челл.</li>
+            </ul>
+          <h4 class="akbar2">1976</h4>
+          <ul>
+            <li class="pisylka">Aperture Science конструирует, как минимум, пятую тестовую камеру испытательного комплекса проталкивающего геля.</li>
+            <li class="pisylka">Кейв Джонсон получает ответ в письме "Humans Enrichment & Testing Initiative, Resourse Acquisitious", описывающее четыре типа испытуемых и их поведение.</li>
+            </ul>
+          <h4 class="akbar2">Между 1977 и 1987</h4>
+          <ul>
+            <li class="pisylka">Рождение Адриана Шепарда</li>
+            </ul>
+          <h4 class="akbar2">1978</h4>
+          <ul>
+            <li class="pisylka">Aperture Science конструирует лифт, ведущий из испытательного комплекса проталкивающего геля.</li>
+            </ul>
+          <h3 class="akbar2">1980-е</h3>
+          <h4 class="akbar2">1981</h4>
+          <ul>
+            <li class="pisylka">Aperture Science конструирует испытательный комплекс преобразующего геля.</li>
+            <li class="pisylka">Кейв Джонсон тратит 70 миллионов долларов на доставку лунного камня и выплавку из него преобразующего геля.</li>
+            <li class="pisylka">Из-за работы с преобразующим гелем Кейв Джонсон смертельно заболевает.</li>
+            </ul>
+          <h4 class="akbar2">1982</h4>
+          <ul>
+            <li class="pisylka">Aperture Science строит насосную станцию "Гамма".</li>
+            <li class="pisylka">Aperture Science начинает тестирование преобразующего геля.</li>
+            <li class="pisylka">Кейв Джонсон называет Кэролайн своим преемником.</li>
+            <li class="pisylka">По окончанию испытаний, разум Кэролайн должен быть перенесён в компьютер.</li>
+            </ul>
+          <h4 class="akbar2">1983</h4>
+          <ul>
+            <li class="pisylka">Издаётся календарь "Девушки из Aperture Science".</li>
+            </ul>
+          <h4 class="akbar2">1986</h4>
+          <ul>
+            <li class="pisylka">Тестовый комплекс преобразующего геля улучшен дополнительной стеной.</li>
+            <li class="pisylka">Aperture Science начинает разработку GLaDOS.</li>
+            <li class="pisylka">Активированная GLaDOS V.1 пытается убить всех сотрудников Aperture Science.</li>
+            </ul>
+          <h3 class="akbar2">1990-е</h3>
+          <h4 class="akbar2">Конец 90-х</h4>
+          <ul>
+            <li class="pisylka">Во время посещения Инсбрукского университета Фримен наблюдает за телепортационным экспериментом. После этого он заражается идеей применения технологии телепортации.</li>
+            </ul>
+          <h4 class="akbar2">1997</h4>
+          <ul>
+            <li class="pisylka">Версия GLaDOS - 3.11.</li>
+            </ul>
+          <h4 class="akbar2">1998</h4>
+          <ul>
+            <li class="pisylka">Aperture Science выпускает несколько тестовых элементов, таких как экскурсионная воронка, термический луч подавленности, куб преломления подавленности, панель веры и другие.</li>
+            </ul>
+          <h4 class="akbar2">1999</h4>
+          <ul>
+            <li class="pisylka">Гордон Фримен заканчивает MIT.</li>
+            </ul>
+          <h3 class="akbar2">2000-е</h3>
+          <h4 class="akbar2">200-</h4>
+          <ul>
+            <li class="pisylka">Неизвестный год, в котором происходит инцидент в Чёрной Мезе.</li>
+            <li class="pisylka">GLaDOS активируется на мероприятии "Приведи свою дочку на работу!". Она берёт контроль над комплексом, блокирует все двери и убивает сотрудников центра развития при помощи нейротоксина, которые отказались участвовать в её испытаниях.</li>
+            <li class="pisylka">Записка Шепарда, в которой он рассказывает о странном мужчине в костюме, появившемся на базе, о слухах, что он является правительственным агентом и том, что он был бы рад поработать в правительственной разведке.</li>
+            <li class="pisylka">Записка Шепарда, в которой он опять рассказывает о человеке из правительства. Он считает, что он одет скорее не как агент, а как юрист. Он также подмечает, что тот постоянно наблюдает за ним во время тренировок.</li>
+            <li class="pisylka">Записка Шепарда, в которой он рассказывает о том, что его и других солдат собираются отправить на специальную тренировку с симуляцией настоящего боя.</li>
+            <li class="pisylka">Барни Калхаун получает письмо от Л.М. о переназначении своей смены на 15 мая.</li>
+            <li class="pisylka">Колетт Грин получает письмо от Л.М. о замене образца EP-0021 на GG-3883.</li>
+            <li class="pisylka">Записка Шепарда, в которой он рассказывает, что по лагерю ходят слухи о тренировке с симуляцией настоящего боя, но никто не может сказать чего-то точного. Он слышал название "Исследовательский комплекс Чёрная Меза", поговаривают, что там на самом деле проводят секретные испытания.</li>
+            <li class="pisylka">Второй день тренировки Барни Калхауна.</li>
+            <li class="pisylka">Уолтер Беннет был проинструктирован Джиной Кросс.</li>
+            <li class="pisylka">Колетт Грин проинструктирована Айзеком Кляйнером.</li>
+            <li class="pisylka">Шепард мистическим образом попадает в список участников особых тренировок. Также это момент, когда G-Man посещает военную базу "Сантьяго".</li>
+            <li class="pisylka">Шепард пишет ещё одну записку, в которой рассказывается, что слух подтвердился. Тренировка будет проходить в комплексе "Чёрная Меза". Всё, что известно об этом месте, это то, что там проводятся какие-то исследования. Шепард начинает сильно сомневаться насчёт этой тренировки.</li>
+            <li class="pisylka">Джина Кросс проинструктирована Ричардом Келлером об использовании прототипа пятой модели костюма HEV.</li>
+            <li class="pisylka">Системные сбои в Чёрной Мезе.</li>
+            <li class="pisylka">Начинается поездка Барни Калхауна на монорельсе.</li>
+            <li class="pisylka">Начинается поездка Гордона Фримена на монорельсе. В это же время Барни Калхаун прибывает на место своей работы.</li>
+            <li class="pisylka">Момент каскадного резонанса. Эксперимент с образцом GG-3883 выходит из-под контроля, и на Землю начинают телепортироваться существа из Зена.</li>
+            <li class="pisylka">Фримен, Калхаун, Кросс и Грин сражаются с существами из Зена и солдатами HECU.</li>
+            <li class="pisylka">Адриан Шепард вместе с отрядом военных на конвертоплане атакован скатом Зена.</li>
+            <li class="pisylka">Успешный запуск ракеты Гордоном Фрименом.</li>
+            <li class="pisylka">В это время в секторе C должны были начаться соревнования по десятиборью. Этого не произошло из-за инцидента.</li>
+            <li class="pisylka">Рано утром Джина Кросс и Колетт Грин совершают гармонический рефлюкс. Их дальнейшая судьба, а также судьба Келлера неизвестны.</li>
+            <li class="pisylka">Барни успешно покидает Чёрную Мезу вместе с Розенбергом, Симмонсом и Уолтером Беннетом.</li>
+            <li class="pisylka">Гордон Фримен прорывается к комплексу Лямбда.</li>
+            <li class="pisylka">Адриан Шепард приходит в сознание и пытается эвакуироваться, но G-Man мешает ему.</li>
+            <li class="pisylka">Фримен побеждает Нихиланта и освобождает вортигонтов. Затем он соглашается работать на G-Man'а, попадая в стазис.</li>
+            <li class="pisylka">Чёрная Меза уничтожается атомной бомбой. Шепард оказывается в стазисе.</li>
+            <li class="pisylka">GLaDOS заканчивает соперничество с Чёрной Мезой, вследствие уничтожения последней.</li>
+            <li class="pisylka">Колетт Грин должна была провести тур по связям с общественностью. Это не произошло из-за инцидента.</li>
+            <li class="pisylka">Отис Лори должен был быть проинструктирован Миллером. Этого не случилось из-за инцидента.</li>
+            <li class="pisylka">Смена Барни должна была закончиться. Это произошло раньше из-за инцидента.</li>
+            </ul>
+          <h4 class="akbar2">После мая 200-</h4>
+          <ul>
+            <li class="pisylka">Гордон Фримен находится в стазисе.</li>
+            <li class="pisylka">По всей Земле происходят портальные штормы. Существа из Зена продолжают беспорядочно телепортироваться. Правительства и ООН организовывают убежища в крупных городах.</li>
+            <li class="pisylka">Aperture Science закрывается вместе с сотрудниками, оказавшимися в ловушке.</li>
+            <li class="pisylka">Альянс нападает на Землю. Происходит семичасовая война. Уоллес Брин, бывший администратор Чёрной Мезы, от имени землян признаёт поражение. Начинается оккупация Земли Альянсом.</li>
+            <li class="pisylka">События Portal. GLaDOS пробуждает Челл. Челл становится испытуемой и проходит все тесты. GLaDOS пытается убить Челл, но та спасается и побеждает ИИ. В результате, Челл попадает в руки распорядителя вечеринки, а GLaDOS остаётся в живых.</li>
+            <li class="pisylka">Земля уже захвачена Альянсом.</li>
+            <li class="pisylka">События Portal 2: Lab Rat. Даг Раттман всячески помогает Челл, хотя та этого даже не замечает.</li>
+            <li class="pisylka">Айзек Кляйнер и Илай Вэнс строят телепорт. Проводятся его испытания, в результате которых на глазах Барни и Айзека погибает кошка.</li>
+            </ul>
+          <h4 class="akbar2">Между 2010 и 2024</h4>
+          <ul>
+            <li class="pisylka">Силы Альянса схватили Илая Вэнса, но Аликс Вэнс смогла его освободить.</li>
+            <li class="pisylka">Аликс Вэнс освобождает из плена Вортигонтов, сила которых использовалась для поддержки энергии летающей тюрьмы</li>
+            <li class="pisylka">Аликс Вэнс уничтожает летающую тюрьму Альянса, впервые встречается с G-man'ом.</li>
+            <li class="pisylka">По решению G-man'а, Аликс спасает своего отца в будущем.</li>
+            </ul>
+          <h4 class="akbar2">Между 2014 и 2028</h4>
+          <ul>
+            <li class="pisylka">Аликс Вэнс ездит на багги по побережью около базы Сопротивления Берег.</li>
+            <li class="pisylka">Рейвенхольм обстрелян снарядами с хедкрабами. В городе остаётся лишь один выживший.</li>
+            </ul>
+          <h4 class="akbar2">Между 2015 и 2029</h4>
+          <ul>
+            <li class="pisylka">Гордон Фримен выходит из стазиса.</li>
+            <li class="pisylka">Айзек Кляйнер и Илай Вэнс проводят испытания телепортации на живых людях.</li>
+            <li class="pisylka">Силы Альянса нападают на Восточную Чёрную Мезу.</li>
+            <li class="pisylka">Взрыв в Нова Проспект.</li>
+            <li class="pisylka">Начало Восстания в Сити 17.</li>
+            <li class="pisylka">Гибель Уоллеса Брина.</li>
+            <li class="pisylka">Уничтожение Сити 17.</li>
+            <li class="pisylka">Открытие суперпортала на месте Цитадели.</li>
+            <li class="pisylka">Сражение за Белую Рощу.</li>
+            <li class="pisylka">Запуск ракеты Сопротивления с последующим закрытием портала.</li>
+            <li class="pisylka">Гибель Илая Вэнса, но благодаря Аликс Вэнс из прошлого, он выживает.</li>
+            <li class="pisylka">Попадание Аликс Вэнс в стазис из-за спасения отца в прошлом.</li>
+            </ul>
+          <h3 class="akbar2">События перед Portal 2</h3>
+          <ul>
+            <li class="pisylka">После частичного уничтожения GLaDOS комплекс приходит в упадок.</li>
+            <li class="pisylka">Челл находится в стазисе.</li>
+            <li class="pisylka">В какой-то момент (или моменты) Челл просыпается для прохождения обязательной разминки.</li>
+            </ul>
+          <h3 class="akbar2">Portal 2</h3>
+          <ul>
+            <li class="pisylka">Уитли пробуждает Челл.</li>
+            <li class="pisylka">Ранее уничтоженная GLaDOS вновь включается.</li>
+            <li class="pisylka">Главный модуль GLaDOS заменяется на Уитли, и тот получает контроль над комплексом, скидывая Челл и GLaDOS в шахту лифта.</li>
+            <li class="pisylka">Aperture Science оказывается на грани уничтожения.</li>
+            <li class="pisylka">Уитли побеждён GLaDOS и Челл.</li>
+            <li class="pisylka">GLaDOS отпускает Челл.</li>
+            <li class="pisylka">При помощи двух роботов, ATLAS'а и P-body, GLaDOS открывает хранилище с людьми.</li>
+            <li class="pisylka">GLaDOS "атакована" птицей.</li>
+            <li class="pisylka">GLaDOS начинает уход за птенцами.</li>
+            </ul>
+    </div>
+  </div>
+  <a href="#" id="toTop">
+    <svg width="10pt" height="10pt" viewBox="0 0 630 630" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <g>
+                <path d="M489.229,442.468L254.563,37.135c-3.797-6.592-14.677-6.592-18.453,0L1.443,442.468c-1.92,3.307-1.92,7.36-0.021,10.667
+			c1.92,3.307,5.44,5.333,9.259,5.333h469.333c3.819,0,7.339-2.027,9.259-5.333C491.128,449.849,491.128,445.775,489.229,442.468z"/>
+            </g>
+        </g>
+    </svg>
+</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="script1.js"></script>
+</body>
+</html>

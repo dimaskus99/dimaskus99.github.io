@@ -428,3 +428,44 @@ input[type=text], input[type=password] {
 	visibility: visible;
 	right: calc(2%);
 }
+.my-anim-left {
+    transform: translateX(-120%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.activ-anim-left {
+    transform: translateX(0);
+    opacity: 1;
+}
+.my-anim-right {
+    transform: translateX(200%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.activ-anim-right {
+    transform: translateX(0);
+    opacity: 1;
+}
+.my-anim-top {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: 1s .5s;
+}
+
+.activ-anim-top {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.my-anim-bottom {
+    transform: translateY(200%);
+    opacity: 0;
+    transition: 1s .5s;
+}
+
+.activ-anim-bottom {
+    transform: translateY(0);
+    opacity: 1;
+}
